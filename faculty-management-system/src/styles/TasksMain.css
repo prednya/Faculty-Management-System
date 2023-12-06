@@ -1,0 +1,92 @@
+.TasksMain {
+    background-color: none; 
+    width: 65vw;
+    height:70vh;
+    margin-left: 7vh;
+}
+.TasksMain--top {
+    display: flex;
+    flex-direction: row;
+}
+.TasksMain--top > button {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.TasksMain--top >h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 27px;
+    font-weight:400;
+}
+
+.TasksMain-box {
+    margin-top: 20px;
+    height: 85%;
+    border-radius: 25px;
+    box-shadow: 10px 10px #ececec;
+    background-color: #f6f6f6 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.TaskMain {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 7px 7px #ececec;
+    height: 23%;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 18px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.TaskMain--left {
+    padding-left: 20px;
+    width:500px;
+}
+
+.TaskMain--left >p {
+    font-size: 13px;
+    padding-left: 5%;
+}
+.TaskMain--left >h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.TaskMain--right {
+    width: 200px;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 48px;
+}
+.TaskMain--right--lower {
+    display: flex;
+    flex-direction: row;
+}
+.Li {
+    margin: 0;
+    padding-right: 2px;
+    margin-top: -4px;
+}
+
+.Arrow {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+.Button--archive {
+    text-align: center;
+    background-color: #c4c4c4;
+    border: none;
+    height:25px;
+    border-radius: 7px;
+    width: 70px;
+}

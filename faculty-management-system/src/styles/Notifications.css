@@ -1,0 +1,61 @@
+.Notifications {
+    background-color: none; 
+    width: 32vw;
+    height:30vh;
+    margin-left: 7vh;
+}
+
+.Notifications >h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 27px;
+    font-weight:400;
+}
+
+.Notifications-box {
+    margin-top: 10px;
+    height: 85%;
+    border-radius: 25px;
+    box-shadow: 10px 10px #ececec;
+    background-color: #f6f6f6 ;
+    overflow: hidden;
+}
+
+.Notification {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 7px 7px #ececec;
+    height: 73px;
+    width: 85%;
+    margin-left: 35px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: black;
+}
+
+.Notification--left {
+    padding-left: 20px;
+    /* padding-bottom: ; */
+    width:17vw;
+}
+
+.Notification--left >p {
+    font-size: 13px;
+}
+.Notification--right >p {
+    font-size: 13px;
+    padding-left: 25px;
+}
+.Notification--left >h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* .Not1 {
+    background-color: red;
+    border: 10px 10px blue;
+} */
+

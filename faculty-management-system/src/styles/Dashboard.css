@@ -1,0 +1,11 @@
+
+.Dashboard--inside{
+    display: flex;
+}
+.Dashboard >h1{
+    margin: 0;
+    padding-left: 40px;
+}
+.Dashboard--notes { 
+    padding-top: 25px;;
+}

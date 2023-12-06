@@ -1,0 +1,12 @@
+.contentblock {
+    padding-top: 20px;
+    margin: 20px;
+    height:79vh;
+    width: 69%;
+    background-color: rgb(255,255,255);
+    float: right;
+    box-shadow: 9px 9px #d3d3d3;
+    padding-right: 3rem;
+    border-radius: 25px;
+    /* overflow-y: auto; */
+}

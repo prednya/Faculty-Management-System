@@ -1,0 +1,93 @@
+.TaskElaborated >h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 70px;
+    font-size: 27px;
+    font-weight:400;
+}
+
+.TaskElaborated-box {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 60vh;
+    border-radius: 25px;
+    box-shadow: 10px 10px #ececec;
+    background-color: #f6f6f6 ;
+    width: 65vw;
+}
+
+.TaskElaborated-Top {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.TaskElaborated-Top >p{
+        padding-left: 58%;
+        font-size: large;
+}
+
+.TaskElaborated-Bottom, .TaskElaborated--Footer {
+    padding-left: 50px;
+}
+.TaskElaborated-Bottom >p{
+    font-size: large;
+    font-weight: 500;
+}
+.values {
+    font-weight: 200;
+}
+
+.ela--values {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.Status-box, .File-box, .Link-box {
+    background-color: #c4c4c4;
+    border-radius: 5px;
+    height: 25px;
+}
+.Status-box {
+    width: 400px;
+    margin-left: 20px;
+}
+.Status-box >span ,.File-box >span ,.Link-box >span {
+    padding-left: 10px;
+    font-weight: 200;
+}
+.File-box {
+    width : 200px;
+    margin-left: 41px;
+}
+
+.Link-box {
+    width: 200px;
+    margin-left: 36px;
+}
+
+.TaskElaborated--Footer {
+    margin-top: 40px;
+}
+
+.Button--footer {
+    background-color: #c4c4c4;
+    border: none;
+    height:30px;
+    border-radius: 7px;
+    width: 100px;
+    font-size: medium;
+    font-weight: 300;
+}
+.Button--footer2 {
+    background-color: #c4c4c4;
+    border: none;
+    height:30px;
+    border-radius: 7px;
+    width: 100px;
+    margin-left: 70px;
+    font-size: medium;
+    font-weight: 300;
+}

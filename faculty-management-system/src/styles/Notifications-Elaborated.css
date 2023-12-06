@@ -1,0 +1,107 @@
+.NotifssMain {
+    background-color: none; 
+    width: 65vw;
+    height:70vh;
+    margin-left: 7vh;
+}
+.NotifssMain--top {
+    display: flex;
+    flex-direction: row;
+}
+.buttons_2 {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.b1 {
+    margin-right: 40px;
+}
+.NotifssMain--top >h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 27px;
+    font-weight:400;
+}
+
+.NotifssMain-box {
+    margin-top: 25px;
+    height: 85%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px #ececec;  
+    background-color: #ffffff ;
+    display: flex;
+    flex-direction: column;
+} 
+
+.NotifMain {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    box-shadow: 7px 7px #ececec;
+    height: 17%;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NotifMain--left {
+    padding-left: 20px;
+    width:500px;
+}
+
+.NotifMain--left >p {
+    font-size: 13px;
+    padding-left: 5%;
+}
+.NotifMain--right >p {
+    font-size: 13px;
+    padding-left: 5%;
+}
+.time{
+    margin: 0;
+    margin-left: 103px;
+    padding-bottom: 15px;
+}
+.NotifMain--left >h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.NotifMain--right {
+    width: 300px;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 48px;
+}
+.NotifMain--right--lower {
+    display: flex;
+    flex-direction: row;
+}
+.Li {
+    margin: 0;
+    padding-right: 2px;
+    margin-top: -4px;
+}
+
+.NotifArrow {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-top: 5px;
+}
+
+.Button--archive {
+    text-align: center;
+    background-color: #c4c4c4;
+    border: none;
+    height:25px;
+    border-radius: 7px;
+    width: 70px;
+}

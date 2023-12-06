@@ -1,0 +1,27 @@
+.sidebar {
+    background-color: rgb(255,255,255);
+    margin: 20px;
+    height: 79vh;
+    width: 45vh;
+    padding-top: 20px;
+    border-radius: 25px;
+    float: left;
+    box-shadow: 9px 9px #d3d3d3;
+    overflow: hidden;
+}
+
+.list {
+    margin: 0;
+    list-style: none;
+}
+
+.listItems {
+    margin: 0;
+    padding-top: 30px;   
+    font-size: large;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

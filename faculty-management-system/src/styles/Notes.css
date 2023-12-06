@@ -1,0 +1,66 @@
+.Notes {
+    background-color: none; 
+    width: 32vw;
+    height:30vh;
+    margin-left: 7vh;
+}
+
+.Notes >h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 27px;
+    font-weight:400;
+}
+
+.Notes-box {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 85%;
+    border-radius: 25px;
+    box-shadow: 10px 10px #ececec;
+    background-color: #f6f6f6 ;
+    line-height:1.6;
+}
+.Top {
+    margin-right: 2vw;
+    padding-top: 5%;
+}
+.Bottom {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding-left: 10%;
+}
+.Bottom>p {
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.Button--save {
+    float:right;
+    background-color: #c4c4c4;
+    border: none;
+    height:30px;
+    border-radius: 7px;
+    width: 70px;
+}
+
+.notes-container{
+    background-color: #F6F6F6;
+    margin-top:7px;
+    width:90%;
+    line-height:1.6;
+    padding:25px;
+    height:17vh;
+    border-radius:15px;
+    border:none;
+    resize: none;
+    overflow: hidden;
+}
+.notes-container:hover{
+    border:none;
+}

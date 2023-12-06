@@ -1,0 +1,87 @@
+.profile--box {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.profile--left{
+    width:750px;
+}
+.profile--left >h1{
+    margin: 0;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.profile--data {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.profile--left >h3 {
+    margin: 0;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.profile--row >h5 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Left--para {
+    font-size: medium;
+    font-weight: 300;
+}
+.profile--row {
+    display: flex;
+}
+
+.Right--para {
+    padding-left: 60px;
+}
+
+.rp2 {
+    padding-left: 120px;
+}
+.rp3 {
+    padding-left: 85px;
+}
+.rp4 {
+    padding-left: 87px;
+}
+
+.rp5 {
+    padding-left: 65px;
+}
+.profile--right {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.Edit--button {
+    background-color: #c4c4c4;
+    border: none;
+    height:32px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: medium;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.pro--left {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.pro-right {
+    margin-left: 180px;
+}
+.rp6 {
+    padding-left: 150px;
+}
+.rp7 {
+    padding-left: 100px;
+}
